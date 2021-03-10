@@ -1,0 +1,23 @@
+.tw-button__text {
+    border: 1px solid transparent;
+    background: #6441a4;
+    color: #fff;
+    padding: 7px 12px;
+    font-weight:400;
+    font-size: 0.9em;
+ }
+ .disabled {
+   /* Make the disabled links grayish*/
+   color: gray;
+   /* And disable the pointer events */
+   pointer-events: none !important;
+
+   text-decoration: line-through;
+ }
+#footer a:hover{
+    color:#00f3ff;
+}
+#footer a{
+    color:#2575dc;
+}
+
