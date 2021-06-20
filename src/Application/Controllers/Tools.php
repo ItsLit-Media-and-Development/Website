@@ -19,7 +19,7 @@ class Tools extends Library\BaseController
 
     public function index()
     {
-        $this->_view->setTemplate('Application/View/tools');
+        $this->_view->setTemplate('Application/View/tools', true);
 
         return $this->_output->output(200, $this->_view->render(), false);
     }

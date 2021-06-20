@@ -19,6 +19,7 @@ class View {
     
     protected $template = self::DEFAULT_TEMPLATE;
     protected $fields = array();
+    private $fileEnds = false;
     
     public function __construct($template = null, array $fields = array()) {
         if ($template !== null) {
@@ -31,13 +32,15 @@ class View {
         } 
     }
     
-    public function setTemplate($template) {
+    public function setTemplate($template, bool $includeHeaderFooter) {
         $template = $template . ".php";
         if (!is_file($template) || !is_readable($template)) {
             //throw new InvalidArgumentException(
             throw new \Exception(
                 "The template '$template' is invalid.");   
         }
+
+        $this->fileEnds = $includeHeaderFooter;
         $this->template = $template;
         return $this;
     }
@@ -78,7 +81,19 @@ class View {
     public function render() {
         extract($this->fields);
         ob_start();
+
+        if($this->fileEnds)
+        {
+            include 'Application/View/header.php';
+        }
+        
         include $this->template;
+
+        if($this->fileEnds)
+        {
+            include 'Application/View/footer.php';
+        }
+
         return ob_get_clean();
     }
 }

@@ -34,7 +34,7 @@ class IES extends Library\BaseController
         $title    = $this->_guzzle->get('https://api.itslit.uk/twitch/current_title/' . $this->_params[0]);
         $tData    = json_decode($title->getBody(), true);
 
-        $this->_view->setTemplate('Application/View/IES');
+        $this->_view->setTemplate('Application/View/IES', true);
         $this->_view->title = $gData['response'];
         $this->_view->desc  = $tData['response'];
         $this->_view->name  = $this->_params[0];

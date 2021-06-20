@@ -41,14 +41,14 @@ class Blog extends Library\BaseController
      */
     public function index()
     {
-        $this->_view->setTemplate('Application/View/blog-list');
+        $this->_view->setTemplate('Application/View/blog-list', true);
 
         return $this->_output->output(200, $this->_view->render(), false);
     }
 
     public function post()
     {
-        $this->_view->setTemplate('Application/View/blog-post');
+        $this->_view->setTemplate('Application/View/blog-post', true);
 
         return $this->_output->output(200, $this->_view->render(), false);
     }
