@@ -29,9 +29,9 @@ class IES extends Library\BaseController
 
     public function twitch()
     {
-        $game     = $this->_guzzle->get('https://api.itslit.uk/twitch/current_game/' . $this->_params[0]);
+        $game     = $this->_guzzle->get($this->_config->GetSettings("API_BASE") . 'twitch/current_game/' . $this->_params[0]);
         $gData    = json_decode($game->getBody(), true);
-        $title    = $this->_guzzle->get('https://api.itslit.uk/twitch/current_title/' . $this->_params[0]);
+        $title    = $this->_guzzle->get($this->_config->GetSettings("API_BASE") . 'twitch/current_title/' . $this->_params[0]);
         $tData    = json_decode($title->getBody(), true);
 
         $this->_view->setTemplate('Application/View/IES', true);

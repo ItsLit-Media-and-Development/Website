@@ -24,18 +24,15 @@ class Main extends Library\BaseController
      */
     public function index()
     {
-        $rawData = $this->_guzzle->get('http://api.itslit.uk/twitch/topclips/itslittany/4/month');
+        $rawData = $this->_guzzle->get($this->_config->GetSettings("API_BASE") . 'twitch/topclips/itslittany/4/month');
         $data    = json_decode($rawData->getBody(), true);
         $data    = $data['response'];
 
-        //$rawVOD = $this->_guzzle->get('http://api.itslit.uk/twitch/recent_vods/itslittany/8');
-        $rawVOD = $this->_guzzle->get('http://api.itslit.uk/twitch/recent_vods/itslittany/8');
+        $rawVOD = $this->_guzzle->get($this->_config->GetSettings("API_BASE") . 'twitch/recent_vods/itslittany/8');
         $VOD    = json_decode($rawVOD->getBody(), true);
         $VOD    = $VOD['response'];
 
         $this->_view->setTemplate('Application/View/index', true);
-        $this->_view->loggedIn = false;
-        $this->_view->authURL = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&approval_prompt=auto&scope=user_read%20user_subscriptions&redirect_uri=https://dev.itslit.uk/Oauth/twitch/&client_id=prsbbjzh28rr4m0urdir6h79hy4yvz';
 
         if(isset($data[0]))
         {

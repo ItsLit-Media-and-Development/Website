@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 
 class Oauth extends Library\BaseController
 {
-	private $_twitch_redirect = 'https://api.itslit.uk/Oauth/twitch/';
+	private $_twitch_redirect;
     private $_db;
     private $_guzzle;
   	private $_config;
@@ -18,7 +18,8 @@ class Oauth extends Library\BaseController
 
 		$this->_db = new OauthModel();
         $this->_guzzle = new Client();
-        $this->_config = new Library\Config();
+
+		$_twitch_redirect = $this->_config->GetSettings("API_BASE") . 'Oauth/twitch/';
     }
 
 	public function twitch()

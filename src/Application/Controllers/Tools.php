@@ -23,4 +23,11 @@ class Tools extends Library\BaseController
 
         return $this->_output->output(200, $this->_view->render(), false);
     }
+
+    public function mods()
+    {
+        $this->_view->setTemplate('Application/View/game-mods', true);
+
+        return $this->_output->output(200, $this->_view->render(), false);
+    }
 }

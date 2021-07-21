@@ -20,7 +20,6 @@ class Rpg extends Library\BaseController
     public function index()
     {
         $this->_view->setTemplate('Application/View/rpg', true);
-        $this->_view->loggedIn = false;
         return $this->_output->output(200, $this->_view->render(), false);
     }
 }

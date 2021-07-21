@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="shortcut icon" href="../Application/View/img/logo.png" type="image/x-icon">
-        <link rel="icon" href="../Application/View/img/logo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="<?php echo $this->baseURL; ?>Application/View/img/logo.png" type="image/x-icon">
+        <link rel="icon" href="<?php echo $this->baseURL; ?>Application/View/img/logo.png" type="image/x-icon">
         <title>ItsLittany</title>
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary_large_image">
@@ -25,15 +25,15 @@
         <meta property="og:site_name" content="ItsLittany - Streamer and Developer" />
         
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-        <link rel="stylesheet" href="../Application/View/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../Application/View/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../Application/View/animate.min.css">
+        <link rel="stylesheet" href="<?php echo $this->baseURL; ?>Application/View/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $this->baseURL; ?>Application/View/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo $this->baseURL; ?>Application/View/animate.min.css">
         <!-- plugins css -->
-        <link href="../Application/View/css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
-        <link href="../Application/View/css/owl.carousel.min.css" rel="stylesheet">
+        <link href="<?php echo $this->baseURL; ?>Application/View/css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+        <link href="<?php echo $this->baseURL; ?>Application/View/css/owl.carousel.min.css" rel="stylesheet">
         <!-- theme css -->
-        <link rel="stylesheet" href="../Application/View/css/theme.min.css?ver=5.0.3">
-        <link rel="stylesheet" href="../Application/View/css/custom.css">
+        <link rel="stylesheet" href="<?php echo $this->baseURL; ?>Application/View/css/theme.min.css?ver=5.0.3">
+        <link rel="stylesheet" href="<?php echo $this->baseURL; ?>Application/View/css/custom.css">
     </head>
     <body class="fixed-header">
         <!-- header -->
@@ -73,15 +73,27 @@
                                             The Gear
                                         </a>
                                     </li>
-                                    <!--<li>
-                                        <a href="https://www.designbyhumans.com/shop/itslittany/" target="_blank">
-                                            Merch
-                                        </a>
-                                    </li>-->
                                     <li>
-                                        <a href="/tools">
-                                            Stream Tools
+                                        <a href="/team">
+                                            Meet the Team
                                         </a>
+                                    </li>
+                                    <li class ="has-dropdown">
+                                        <a href="#">
+                                            Tools and Mods
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="/tools">
+                                                    Stream Tools
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/tools/mods">
+                                                    Game Mods
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="/rpg">

@@ -1,125 +1,161 @@
 
-        <!-- main -->
-        <div class="site-content" role="main">
-            <section class="py-lg-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-9 mx-auto">
-                            <div class="d-md-flex mb-4">
-                                <div class="dropdown mr-md-2 mb-2 mb-sm-0">
-                                    <button class="btn btn-light btn-icon-left dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="ya ya-tag"></i> All categories
-                                    </button>
-                                    <div class="dropdown-menu dropdown-height">
-                                        <a class="dropdown-item active" href="#">All categories</a>
-                                        <a class="dropdown-item" href="#">Playstation 4</a>
-                                        <a class="dropdown-item" href="#">Xbox One</a>
-                                        <a class="dropdown-item" href="#">PC</a>
-                                        <a class="dropdown-item" href="#">Steam</a>
-                                        <a class="dropdown-item" href="#">Rockstar</a>
-                                        <a class="dropdown-item" href="#">CD Project</a>
-                                        <a class="dropdown-item" href="#">Activision</a>
-                                        <a class="dropdown-item" href="#">BioWare</a>
-                                    </div>
-                                </div>
-                                <div class="dropdown mr-auto mb-2 mb-sm-0">
-                                    <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Recent posts
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item active" href="#">Recent</a>
-                                        <a class="dropdown-item" href="#">Oldest</a>
-                                        <a class="dropdown-item" href="#">Popular</a>
-                                        <a class="dropdown-item" href="#">Most Comments</a>
-                                    </div>
-                                </div>
-                                <div class="dropdown">
-                                    <button class="btn btn-light btn-icon-left dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Descending
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item active" href="#">Descending</a>
-                                        <a class="dropdown-item" href="#">Ascending</a>
-                                        <a class="dropdown-item" href="#">Random</a>
-                                    </div>
-                                </div>
-                                <div class="btn-group ml-md-2" role="group">
-                                    <button type="button" class="btn btn-light">
-                                        <i class="ya ya-list m-0"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-light">
-                                        <i class="ya ya-table m-0"></i>
-                                    </button>
-                                </div>
-                            </div>-->
-                            <div class="card mb-0">
-                                <div class="card-header">
-                                    <h6 class="mb-0">
-                                        Battle royale games explained what could be the next big hit
-                                    </h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="post border-0 mb-0 pb-0">
-                                        <div class="post-thumbnail">
-                                            <img class="post-img" src="https://img.youtube.com/vi/LDzYR5_TR2o/maxresdefault.jpg" alt="Battle royale games explained what could be the next big hit">
-                                        </div>
-                                        <div class="post-body">
-                                            <p>
-                                                Debating me breeding be answered an he. Spoil event was words her off cause any. Tears woman which no is world miles woody. Wished be do mutual except in effect answer. Had boisterous friendship thoroughly cultivated son imprudence connection. Windows because concern sex its. Law allow saved views hills day ten. Examine waiting his evening day passage proceed.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- end .post -->
-                                </div>
-                                <div class="card-footer d-block d-md-flex align-items-center">
-                                    <a class="btn btn-default btn-icon font-size-md mr-auto mr-md-1" href="blog-post.html" role="button">
-                                        Read more
-                                    </a>
-                                    <div class="d-flex d-md-inline-block ml-auto">
-                                        <button class="btn btn-default btn-icon font-size-md mr-auto mr-md-1">
-                                            <i class="ya ya-heart-o"></i> Like (30)
-                                        </button>
-                                        <button class="btn btn-default btn-icon font-size-md">
-                                            <i class="ya ya-comment"></i> Comments (20)
-                                        </button>
-                                    </div>
-                                </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-8 mx-auto">
+                    <!-- post -->
+                    <div class="post post-card">
+                        <div class="post-header">
+                        <div>
+                            <a href="profile.html">
+                            <img src="../Application/View/img/user/user-3.jpg" alt="">
+                        </a>
+                        </div>
+                        <div>
+                            <h2 class="post-title">
+                            <a href="blog-post.html">Uncharted The Lost Legacy First Gameplay Details Revealed</a>
+                            </h2>
+                            <div class="post-meta">
+                            <span><i class="fa fa-clock-o"></i> Julye 28, 2017 by <a href="profile.html">Clark</a></span>
+                            <span><a href="blog-post.html#comments"><i class="fa fa-comment-o"></i> 98 comments</a></span>
                             </div>
-                            <nav aria-label="Page navigation">
-                                <ul class="pagination mb-0">
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#">Previous</a>
-                                    </li>
-                                    <li class="page-item active">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">4</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">5</a>
-                                    </li>
-                                    <li class="page-item gap">
-                                        <span class="page-link">...</span>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">25</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">Next</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <!-- end pagination -->
+                        </div>
+                        </div>
+                        <div class="post-thumbnail">
+                        <img src="../Application/View/img/blog/blog-1.jpg" alt="Uncharted The Lost Legacy First Gameplay Details Revealed">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id urna ac lacus iaculis sollicitudin. Sed iaculis ante ut mi vehicula, laoreet ullamcorper nibh condimentum. Nunc sem urna, tincidunt sed purus non, sollicitudin fringilla nibh.
+                        Ut lacinia lorem quis interdum laoreet. Curabitur massa ligula, ultrices non ipsum a, scelerisque iaculis mauris. Vivamus ut cursus quam.</p>
+                        <div class="post-footer">
+                        <a class="btn btn-secondary" href="blog-post.html" role="button">Read More</a>
+                        <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 45 likes</a>
                         </div>
                     </div>
+
+                    <!-- post -->
+                    <div class="post post-card">
+                        <div class="post-header">
+                        <div>
+                            <a href="profile.html">
+                            <img src="../Application/View/img/user/user-2.jpg" alt="">
+                        </a>
+                        </div>
+                        <div>
+                            <h2 class="post-title">
+                            <a href="blog-post-carousel.html">The Last of Us 2 Was Teased in September and Nobody Noticed</a>
+                            </h2>
+                            <div class="post-meta">
+                            <span><i class="fa fa-clock-o"></i> Julye 15, 2017 by <a href="profile.html">Elizabeth</a></span>
+                            <span><a href="blog-post-carousel.html#comments"><i class="fa fa-comment-o"></i> 6 comments</a></span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="post-thumbnail">
+                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"><img src="../Application/View/img/blog/blog-2.jpg"></div>
+                            <div class="carousel-item"><img src="../Application/View/img/blog/blog-3.jpg"></div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elit ante, congue sodales orci ac, ultrices pretium lectus. Maecenas lorem enim, dignissim sed lacus non, feugiat iaculis lorem. Integer eu aliquet diam. Suspendisse fringilla
+                        porta justo, vel tempus risus. Ut et enim sit amet libero fermentum aliquam et ut sem.</p>
+                        <div class="post-footer">
+                        <a class="btn btn-secondary" href="blog-post-carousel.html" role="button">Read More</a>
+                        <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 21 likes</a>
+                        </div>
+                    </div>
+
+                    <!-- post -->
+                    <div class="post post-card">
+                        <div class="post-header">
+                        <div>
+                            <a href="profile.html">
+                            <img src="../Application/View/img/user/user-5.jpg" alt="">
+                        </a>
+                        </div>
+                        <div>
+                            <h2 class="post-title">
+                            <a href="blog-post-video.html">Dead Island 2 Official E3 Announce Gameplay Trailer</a>
+                            </h2>
+                            <div class="post-meta">
+                            <span><i class="fa fa-clock-o"></i> Julye 10, 2017 by <a href="profile.html">Trevor</a></span>
+                            <span><a href="blog-post-video.html#comments"><i class="fa fa-comment-o"></i> 33 comments</a></span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="post-thumbnail">
+                        <div class="video-play" data-src="https://www.youtube.com/embed/ST262ZbNcos?rel=0&amp;amp;autoplay=1&amp;amp;showinfo=0">
+                            <div class="embed-responsive embed-responsive-16by9">
+                            <img class="embed-responsive-item" src="https://img.youtube.com/vi/tklQ47Hpfxw/maxresdefault.jpg">
+                            <div class="video-play-icon"><i class="fa fa-play"></i></div>
+                            </div>
+                        </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elit ante, congue sodales orci ac, ultrices pretium lectus. Maecenas lorem enim, dignissim sed lacus non, feugiat iaculis lorem. Integer eu aliquet diam. Suspendisse fringilla
+                        porta justo, vel tempus risus. Ut et enim sit amet libero fermentum aliquam et ut sem.</p>
+                        <div class="post-footer">
+                        <a class="btn btn-secondary" href="blog-post-video.html" role="button">Read More</a>
+                        <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 19 likes</a>
+                        </div>
+                    </div>
+
+                    <!-- post -->
+                    <div class="post post-card">
+                        <div class="post-header">
+                        <div>
+                            <a href="profile.html">
+                            <img src="../Application/View/img/user/user-3.jpg" alt="">
+                        </a>
+                        </div>
+                        <div>
+                            <h2 class="post-title">
+                            <a href="blog-post-disqus.html">The Witcher 3: Don't Miss This Hidden Contract</a>
+                            </h2>
+                            <div class="post-meta">
+                            <span><i class="fa fa-clock-o"></i> Julye 03, 2017 by <a href="profile.html">Clark</a></span>
+                            <span><a href="blog-post-disqus.html#comments"><i class="fa fa-comment-o"></i> 15 comments</a></span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="post-thumbnail">
+                        <img src="../Application/View/img/blog/blog-4.jpg" alt="The Witcher 3: Don't Miss This Hidden Contract in Blood and Wine">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elit ante, congue sodales orci ac, ultrices pretium lectus. Maecenas lorem enim, dignissim sed lacus non, feugiat iaculis lorem. Integer eu aliquet diam. Suspendisse fringilla
+                        porta justo, vel tempus risus. Ut et enim sit amet libero fermentum aliquam et ut sem.</p>
+                        <div class="post-footer">
+                        <a class="btn btn-secondary" href="blog-post-disqus.html" role="button">Read More</a>
+                        <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 34 likes</a>
+                        </div>
+                    </div>
+
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                        <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="separate"><span>...</span></li>
+                        <li class="page-item"><a class="page-link" href="#">25</a></li>
+                        <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                        </ul>
+                    </nav>
+                    </div>
                 </div>
-            </section>
-        </div>
-        <!-- end .site-content -->
+            </div>
+        </section>
+        <!-- /main -->

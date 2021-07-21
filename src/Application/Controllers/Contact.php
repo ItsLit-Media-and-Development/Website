@@ -25,13 +25,12 @@ class Contact extends Library\BaseController
     public function index()
     {
         $this->_view->setTemplate('Application/View/contact', true);
-        $this->_view->loggedIn  = false;
+
         $this->_view->submitted = false;
-        $this->_view->authURL   = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&approval_prompt=auto&scope=user_read%20user_subscriptions&redirect_uri=https://dev.itslit.uk/Oauth/twitch/&client_id=prsbbjzh28rr4m0urdir6h79hy4yvz';
 
         if(isset($_POST) && !empty($_POST))
         {
-            $this->_guzzle->post('https://api.itslit.uk/Ticket/create', [
+            $this->_guzzle->post($this->_config->GetSettings("API_BASE") . 'Ticket/create', [
                 'form_params' => $_POST
             ]);
 

@@ -18,7 +18,7 @@
                         </a>
                     </div>
                     <p>
-                        Copyright &copy; 2019 
+                        Copyright &copy; 2021 
                         <a href="https://www.itslit.uk" target="_blank">
                             ItsLittany
                         </a>
@@ -52,6 +52,40 @@
                 return false;
             });
             })(jQuery);
+        </script>
+        <script type="text/javascript">
+            (function($) {
+            "use strict";
+            $('.btn').click(function() {
+                copy(this);
+                return false;
+            });
+            })(jQuery);
+        </script>
+        <script>
+            function copyText()
+            {
+                var copyText = document.getElementById("output");
+
+                // Select the text field 
+                copyText.select();
+
+                // Copy the text inside the text field 
+                document.execCommand("copy");
+
+                document.getElementById('alert').style.display = "block";
+            }
+
+            function setValue() {
+                if(document.getElementById('inputname').value !== '')
+                {
+                    document.getElementById('output').value = "https://itslit.uk/TES/twitch/" + document.getElementById('inputname').value;
+
+                        copyText();
+                } else {
+                    document.getElementById('output').value = 'Enter your username!';
+                }
+            }
         </script>
         <!-- theme js -->
         <script src="Application/View/js/theme.min.js"></script>
