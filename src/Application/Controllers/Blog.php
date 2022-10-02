@@ -52,7 +52,7 @@ class Blog extends Library\BaseController
 
         $this->_view->setTemplate('Application/View/blog-post', true);
         $this->_view->title = ucwords(str_replace("-", " ",$postTitle));
-        $this->_view->postedOn = "September 1, 2020";
+        $this->_view->postedOn = "September 1, 2022";
         $this->_view->readTime = "5";
         $this->_view->body = "
 
